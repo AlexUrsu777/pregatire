@@ -1,0 +1,6 @@
+5 <class 'int'>
+NU
+NU
+DA
+DA
+DA
