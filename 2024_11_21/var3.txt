@@ -1,0 +1,36 @@
+citeşte z,x
+cât timp x>0 execută
+    citeşte y (număr natural)
+        dacă z<y-x atunci
+            scrie x%10
+        altfel
+            scrie y%10
+x<-y
+
+2 5 16 9 12 13 5 0
+x:5 16 9 12 13 5 0
+y:16 9 12 13 5 0
+z:2 
+y-x:11 -7 3 1 -8 -5
+output:599350
+
+
+
+input:1 7 13 21 30 0
+x:7 13 21 30 
+y:13 21 30 0
+z:1
+y-x:6 8 9 10
+output:7 3 1 0
+
+
+citeşte z,x
+daca (x>0) execută
+    repeta
+    citeşte y (număr natural)
+        dacă z<y-x atunci
+            scrie x%10
+        altfel
+            scrie y%10
+    pana cand (x<=0)
+x<-y

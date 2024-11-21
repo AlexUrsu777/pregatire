@@ -1,0 +1,27 @@
+citeşte x (număr întreg)
+dacă x<0 atunci
+    x <- -x
+p <- 1
+pentru iÅ1,x execută
+    p <- (p*4)%10
+scrie p 
+
+x:8
+p:1
+i:1 2 3 4 5 6 7 8
+p:4 6 4 6 4 6 4 6
+
+1 3 5 7 9
+
+
+citeşte x (număr întreg)
+dacă x<0 atunci
+    x <- -x
+daca x=0 atunci
+    scrie 1
+altfel 
+    daca x%2=0 si x!=0 atunci
+        scrie 4
+    altfel
+        scrie 6
+

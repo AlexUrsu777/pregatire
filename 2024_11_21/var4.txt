@@ -1,0 +1,33 @@
+citeşte a,b (numere întregi)
+dacă a<b atunci
+    a <-> b
+pentru x<-a,b,-1 execută
+    dacă x%2≠0 atunci
+        scrie x,
+
+a:5 17
+b:17 5
+x: 17 16  15 14 13 12 11 10 9 8 7 6 5
+output: 17 15 13 11 9 7 5
+
+(1, -1), (2, -2) (1, -2) (2, -1)
+
+
+
+citeşte a,b (numere întregi)
+dacă a<b atunci
+    a↔b
+
+pentru x<-a,b,-1 execută
+    dacă x%2≠0 atunci
+        scrie x,’ ’ 
+----------------------------------------
+
+citeşte a,b (numere întregi)
+dacă a<b atunci
+    a↔b
+x<-a
+cat timp (x>=b) execută
+    dacă x%2≠0 atunci
+        scrie x,’ ’
+    x<-x-1
