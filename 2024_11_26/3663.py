@@ -1,5 +1,5 @@
 n = int(input())
-min = 9
+min = n
 
 for d in range (2,n):
     if n%d==0 and d<min:
